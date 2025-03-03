@@ -12,13 +12,13 @@ export const fetchUsers = async () => {
     }
 };
 import React from 'react';
-import UserList from '../components/UserList';
+import PrivateRoute from '../components/PrivateRoute';
 
 function App() {
     return (
         <div>
             <h1>Пользователи</h1>
-            <UserList />
+            <PrivateRoute />
         </div>
     );
 }
